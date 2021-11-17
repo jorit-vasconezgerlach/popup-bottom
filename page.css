@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+}
+body {
+    height: 100vh;
+    background: #000000;
+}
+#popup {
+    padding-left: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-100px);
+    width: 200px;
+    color: #FFFFFF;
+    background: #CA3216;
+}
+#popup i {
+    font-style: normal;
+}
+#popup i.close {
+    margin-right: 5px;
+}
